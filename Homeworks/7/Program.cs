@@ -137,11 +137,9 @@ void Af (int[,] newArray, int rows, int columns)
         for (int i = 0; i < rows; i++)
        {
             sum = sum + newArray[i,j];
-            Console.WriteLine(newArray[i,j]);
         }
         Console.Write("Среднее арифметическое: ");
         Console.Write((double) sum/rows);
-        Console.WriteLine();
     }
 }
 
